@@ -15,7 +15,7 @@ import com.squareup.picasso.Picasso;
 public class CustomToster
 {
 
-    private void showCustomToast(AppCompatActivity compatActivity,String imageUrl,String message)
+    public void showCustomToast(AppCompatActivity compatActivity,String imageUrl,String message)
     {
         LayoutInflater inflater = compatActivity.getLayoutInflater();
         View layout = inflater.inflate(R.layout.custom_toast_layout,
